@@ -106,6 +106,8 @@ export default {
 </script>
 
 <style>
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+
 .timedropdown {
   position: absolute;
   height: 10em;
@@ -114,6 +116,7 @@ export default {
   flex-flow: row nowrap;
   background: #fff;
   border: 1px solid #ced4da;
+  font-family: "Roboto", sans-serif;
 }
 
 .timeselect {
@@ -128,11 +131,11 @@ export default {
 }
 
 .helper {
-  color: gray;
+  color: #888888;
   cursor: default;
 }
 
 .selected {
-  background-color: #ffc107;
+  background-color: #f27405;
 }
 </style>
