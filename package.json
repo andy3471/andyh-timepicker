@@ -10,7 +10,7 @@
         "./sfc": "/src/andyh-timepicker.vue"
     },
     "scripts": {
-        "serve": "vue serve --open src/andyh-timepicker",
+        "serve": "vue serve --open src/andyh-timepicker.vue",
         "build": "npm run build:umd & npm run build:es & npm run build:unpkg",
         "build:umd": "rollup --config build/rollup.config.js --format umd --file dist/andyh-timepicker.umd.js",
         "build:es": "rollup --config build/rollup.config.js --format es --file dist/andyh-timepicker.esm.js",
