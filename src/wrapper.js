@@ -5,7 +5,7 @@ import component from "./andyh-timepicker.vue";
 export function install(Vue) {
     if (install.installed) return;
     install.installed = true;
-    Vue.component("AndyHTimepicker", component);
+    Vue.component("andyh-timepicker", component);
 }
 
 // Create module definition for Vue.use()
