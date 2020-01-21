@@ -1,8 +1,8 @@
 <template>
   <div>
     <input
+      class="ah-dp"
       type="text"
-      class="form-control"
       v-on:click="openDropdown()"
       :value="this.selectedTime"
     />
@@ -107,6 +107,16 @@ export default {
 
 <style>
 @import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+.ah-dp {
+  width: 100%;
+  display: block;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  font-family: "Roboto", sans-serif;
+  color: #495057;
+  border: 1px solid #ced4da;
+  border-radius: .15rem;
+}
 
 .timedropdown {
   position: absolute;
@@ -117,6 +127,11 @@ export default {
   background: #fff;
   border: 1px solid #ced4da;
   font-family: "Roboto", sans-serif;
+  color: #495057;
+}
+
+.timedropdown li {
+  height: 1.25rem;
 }
 
 .timeselect {
