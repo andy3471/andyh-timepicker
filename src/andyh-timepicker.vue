@@ -116,6 +116,7 @@ export default {
   color: #495057;
   border: 1px solid #ced4da;
   border-radius: .15rem;
+  line-height: 1.5
 }
 
 .timedropdown {
@@ -128,6 +129,7 @@ export default {
   border: 1px solid #ced4da;
   font-family: "Roboto", sans-serif;
   color: #495057;
+  z-index: 9999;
 }
 
 .timedropdown li {

@@ -1,7 +1,7 @@
 # AndyH-Timepicker
 This is a simple Time Picker component written in Vue JS.
 
-
+![ScreenShot](https://raw.github.com/andy3471/andyh-timepicker/master/docs/img/timepicker-default.jpg)
 
 
 ## Install

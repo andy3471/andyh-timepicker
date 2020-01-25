@@ -1,6 +1,6 @@
 {
     "name": "andyh-timepicker",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "Simple Vue JS Time Picker App",
     "Author": "AndyH",
     "main": "dist/andyh-timepicker.umd.js",
