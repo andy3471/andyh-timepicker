@@ -1,6 +1,6 @@
 {
     "name": "andyh-timepicker",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "description": "Simple Vue JS Time Picker App",
     "Author": "AndyH",
     "main": "dist/andyh-timepicker.umd.js",
@@ -28,12 +28,12 @@
     },
     "homepage": "https://github.com/andy3471/andyh-timepicker#readme",
     "devDependencies": {
-        "@vue/cli-service": "^4.1.2",
-        "rollup": "^1.29.0",
+        "@vue/cli-service": "^4.4.6",
+        "rollup": "^1.32.1",
         "rollup-plugin-buble": "^0.19.8",
         "rollup-plugin-commonjs": "^10.1.0",
-        "rollup-plugin-vue": "^5.1.5",
-        "sass": "^1.24.5",
+        "rollup-plugin-vue": "^5.1.9",
+        "sass": "^1.26.10",
         "sass-loader": "^8.0.2",
         "vue": "^2.6.11",
         "vue-template-compiler": "^2.6.11"
