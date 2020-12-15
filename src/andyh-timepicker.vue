@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div :style="cssVars">
     <input
       class="ah-dp"
       type="text"
@@ -44,6 +44,9 @@ export default {
     minInterval: {
       type: Number,
       default: 1
+    },
+    color: {
+      default: '#2a438c'
     }
   },
   data() {
@@ -58,6 +61,11 @@ export default {
   computed: {
     selectedTime: function() {
       return this.selectedHour + ":" + this.selectedMin;
+    },
+    cssVars() {
+      return {
+        '--color': this.color
+      }
     }
   },
   mounted() {
@@ -105,15 +113,16 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 @import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+
 .ah-dp {
   width: 100%;
   display: block;
   padding: .375rem .75rem;
   font-size: 1rem;
   font-family: "Roboto", sans-serif;
-  color: #495057;
+  color: #212529;
   border: 1px solid #ced4da;
   border-radius: .15rem;
   line-height: 1.5
@@ -128,7 +137,7 @@ export default {
   background: #fff;
   border: 1px solid #ced4da;
   font-family: "Roboto", sans-serif;
-  color: #495057;
+  color: #212529;
   z-index: 9999;
 }
 
@@ -147,12 +156,16 @@ export default {
   cursor: pointer;
 }
 
+.timedropdown li:hover {
+  background-color: #f2f2f2
+}
+
 .helper {
   color: #888888;
   cursor: default;
 }
 
 .selected {
-  background-color: #f27405;
+  background-color: var(--color);
 }
 </style>
