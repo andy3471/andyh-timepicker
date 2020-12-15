@@ -46,3 +46,9 @@ You can pass through a prop called minInterval, to set the time interval in minu
     <time-picker :minInterval="15"></time-picker>
 
 Would return the minutes 00, 15, 30, 45
+
+## Setting the accent color
+
+You can set the accent color with the following prop
+
+    <time-picker :color="#fec107"></time-picker>
